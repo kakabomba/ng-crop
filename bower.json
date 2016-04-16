@@ -1,0 +1,39 @@
+{
+  "name": "ng-crop",
+  "description": "An angular cropper",
+  "main": [
+    "dist/ng-crop.js",
+    "dist/ng-crop.css"
+  ],
+  "keywords": [
+    "crop",
+    "cropper",
+    "cropping",
+    "angular"
+  ],
+  "homepage": "https://github.com/kakabomba/ng-crop",
+  "authors": [
+    "Oles Zaburannyi"
+  ],
+  "license": "GNU GPL",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "tests",
+    "test",
+    "examples",
+    "assets",
+    "demo",
+    "docs",
+    "gulpfile.js",
+    "CONTRIBUTING.md",
+    "FAQ.md"
+  ],
+  "dependencies": {
+    "angular": ">= 1.4.9"
+  },
+  "devDependencies": {
+    "angular": "~1.4.9"
+  }
+}
