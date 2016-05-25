@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html ng-app="cropper">
+
+<head>
+
+   <script data-require="jquery@2.1.4" data-semver="2.1.4" src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+   <script data-require="angular.js@1.4.x" src="https://code.angularjs.org/1.4.9/angular.js" data-semver="1.4.9"></script>
+
+   <link rel="stylesheet" href="ng-crop.css" />
+   <script src="ng-crop.js"></script>
+
+   <script>
+      var app = angular.module('cropper', ['ngCrop']);
+
+      app.controller('MainCtrl', function($scope) {
+         $scope.name = 'World';
+         $scope.coordinates = {};
+         $scope.image_url = 'https://raw.githubusercontent.com/kakabomba/ng-crop/master/example.jpg';
+      });
+
+   </script>
+</head>
+
+<body ng-controller="MainCtrl">
+<p>Hello {{name}}!</p>
+<div style="width: 400px; height: 400px;" ng-crop="image_url"></div>
+</body>
+
+</html>
