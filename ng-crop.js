@@ -1175,15 +1175,15 @@
             scope: {
                 ngCrop: '=ngCrop',
                 ngCropCoordinates: '=?ngCropCoordinates',
-                // ngCropOptions: '=ngCropOptions',
-                // ngCropZoom: '=ngCropZoom',
-                // ngCropOrigin: '=ngCropOrigin',
-                // ngCropLoading: '=ngCropLoading',
-                // ngCropDisabled: '=ngCropDisabled',
-                //
-                // logic: '=logic',
-                //
-                //
+                ngCropOptions: '=ngCropOptions',
+                ngCropZoom: '=ngCropZoom',
+                ngCropOrigin: '=ngCropOrigin',
+                ngCropLoading: '=ngCropLoading',
+                ngCropDisabled: '=ngCropDisabled',
+
+                logic: '=logic',
+
+
                 ngCropOnError: '&ngCropOnError',
                 ngCropOnLoad: '&ngCropOnLoad',
 
