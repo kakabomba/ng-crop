@@ -1,10 +1,10 @@
 {
-  "name": "ng-crop",
+  "name": "angular-crop",
   "version": "1.0.0",
   "description": "An angular cropper",
   "main": [
-    "dist/ng-crop.js",
-    "dist/ng-crop.css"
+    "ng-crop.js",
+    "ng-crop.css"
   ],
   "keywords": [
     "crop",
@@ -32,9 +32,9 @@
     "FAQ.md"
   ],
   "dependencies": {
-    "angular": ">= 1.4.9"
+    "angular": ">= 1.4.9",
+    "jquery": ">= 2.1.4"
   },
   "devDependencies": {
-    "angular": "~1.4.9"
   }
 }
