@@ -10,18 +10,18 @@ Base usegage - <a href='https://plnkr.co/edit/aFNG7Kugm6LRIsesciDf?p=preview'>ht
 # Usage
 
 # Parameters
-ngCrop: '=ngCrop',
-ngCropCoordinates: '=?ngCropCoordinates',
-ngCropOptions: '=ngCropOptions',
-ngCropZoom: '=ngCropZoom',
-ngCropOrigin: '=ngCropOrigin',
-ngCropLoading: '=ngCropLoading',
-ngCropDisabled: '=ngCropDisabled',
-
-logic: '=logic',
-
-ngCropOnError: '&ngCropOnError',
-ngCropOnLoad: '&ngCropOnLoad',
+ngCrop: '=ngCrop',<br/>
+ngCropCoordinates: '=?ngCropCoordinates',<br/>
+ngCropOptions: '=ngCropOptions',<br/>
+ngCropZoom: '=ngCropZoom',<br/>
+ngCropOrigin: '=ngCropOrigin',<br/>
+ngCropLoading: '=ngCropLoading',<br/>
+ngCropDisabled: '=ngCropDisabled',<br/>
+<br/>
+logic: '=logic',<br/>
+<br/>
+ngCropOnError: '&ngCropOnError',<br/>
+ngCropOnLoad: '&ngCropOnLoad',<br/>
 
 # Features
 
