@@ -1,5 +1,6 @@
 {
   "name": "ng-crop",
+  "version": "1.0.0",
   "description": "An angular cropper",
   "main": [
     "dist/ng-crop.js",
