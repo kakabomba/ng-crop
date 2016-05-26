@@ -1175,17 +1175,17 @@
             scope: {
                 ngCrop: '=ngCrop',
                 ngCropCoordinates: '=?ngCropCoordinates',
-                ngCropOptions: '=ngCropOptions',
-                ngCropZoom: '=ngCropZoom',
-                ngCropOrigin: '=ngCropOrigin',
-                ngCropLoading: '=ngCropLoading',
-                ngCropDisabled: '=ngCropDisabled',
+                ngCropOptions: '=?ngCropOptions',
+                ngCropZoom: '=?ngCropZoom',
+                ngCropOrigin: '=?ngCropOrigin',
+                ngCropLoading: '=?ngCropLoading',
+                ngCropDisabled: '=?ngCropDisabled',
 
-                logic: '=logic',
+                logic: '=?logic',
 
 
-                ngCropOnError: '&ngCropOnError',
-                ngCropOnLoad: '&ngCropOnLoad',
+                ngCropOnError: '&?ngCropOnError',
+                ngCropOnLoad: '&?ngCropOnLoad',
 
             },
             link: function ($scope, element, attrs, model) {
